@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/pwa-chick-feeder/static/css/main.f855e6bc.css",
+    "main.js": "/pwa-chick-feeder/static/js/main.2f803ba8.js",
+    "static/js/453.3d0ca010.chunk.js": "/pwa-chick-feeder/static/js/453.3d0ca010.chunk.js",
+    "index.html": "/pwa-chick-feeder/index.html",
+    "main.f855e6bc.css.map": "/pwa-chick-feeder/static/css/main.f855e6bc.css.map",
+    "main.2f803ba8.js.map": "/pwa-chick-feeder/static/js/main.2f803ba8.js.map",
+    "453.3d0ca010.chunk.js.map": "/pwa-chick-feeder/static/js/453.3d0ca010.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f855e6bc.css",
+    "static/js/main.2f803ba8.js"
+  ]
+}
