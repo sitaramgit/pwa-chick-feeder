@@ -49,7 +49,7 @@ To learn React, check out the [React documentation](https://reactjs.org/).
 
 Install GitHub Pages dependency (only once in your project):
 
-npm install gh-pages --save-dev
+npm install gh-pages --save-dev --legacy-peer-deps
 
 
 Update package.json
