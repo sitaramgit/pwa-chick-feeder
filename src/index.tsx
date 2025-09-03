@@ -12,13 +12,14 @@ if ("serviceWorker" in navigator) {
     navigator.serviceWorker
       .register("/service-worker.js")
       .then((registration) => {
-        console.log("ServiceWorker registered:", registration);
+        console.log("Service Worker registered with scope:", registration.scope);
       })
       .catch((error) => {
-        console.log("ServiceWorker registration failed:", error);
+        console.error("Service Worker registration failed:", error);
       });
   });
 }
+
 root.render(
   <React.StrictMode>
     <App />

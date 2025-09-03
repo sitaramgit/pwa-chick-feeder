@@ -44,3 +44,49 @@ You don’t have to ever use `eject`. The curated feature set is suitable for sm
 You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
 To learn React, check out the [React documentation](https://reactjs.org/).
+
+✅ Steps to Deploy React PWA to GitHub Pages
+
+Install GitHub Pages dependency (only once in your project):
+
+npm install gh-pages --save-dev
+
+
+Update package.json
+Add the following fields:
+
+{
+  "homepage": "https://sitaramgit.github.io/pwa-chick-feeder",
+  "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
+  }
+}
+
+
+Replace sitaramgit with your GitHub username.
+
+Replace pwa-chick-feeder with your repo name.
+
+Build and Deploy
+
+npm run deploy
+
+
+This will create a gh-pages branch in your repo and push the built app there.
+
+Enable GitHub Pages
+
+Go to your repo: pwa-chick-feeder
+.
+
+Click Settings → Pages.
+
+Under Source, choose Deploy from branch → select gh-pages branch → /root.
+
+Save.
+
+Access Your App
+
+It will be available at:
+👉 https://sitaramgit.github.io/pwa-chick-feeder
